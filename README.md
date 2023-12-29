@@ -1,3 +1,11 @@
-# project
-hello 
-pranav 
+# Dynamic Weather Site
+#### Video Demo:  <URL HERE>
+#### Description: Our project is a simple weather website that uses an open-source API from OpenWeather to obtain real-time weather data based on a given city's name. We utilized HMTL, CSS, and JS as the framework for our website and external sources to elevate the design and visual aesthetic. We selected this project as it offered us a chance to explore our mutual passions for weather and Computer Science and the field of API. 
+
+#### Our project starts with the weather.html file. This file laid the foundation for the website. Me and Pavan decided on a few design elements during this stage, including specific formats using Google Fonts, and creating a default display format using Columbus, OH as the first city's weather to be displayed. We chose this city since this is where we are from. We also utilized the react icon's extension to search an image for the search button. We have two classes, one for the search bar and button and the second to display Columbus's data. We display various aspects of weather, including the current weather, real feel, minimum and maximum temperature, humidity, and wind speed. All of this data is sourced through the OpenWeather API. 
+
+#### Our weather.css file includes the various design elements we selected, from the shape and size of the display card to each font and color of the data displayed. We created a separate method for the heading for the Temperature and real feel and grouped the rest of the data in a paragraph break. Additionally, we decided to have the background image appear changed to a photo taken a  the specified city. We utilized the website called unsplash.com and implemented logic to select a random image taken at the specified city. We decided on having a dark blue background with white text to enhance the readability and ensure people with color disabilities are still able to view the data. 
+
+#### Our weather.js file implements the logic and uses an API key to fetch the weather data using the fetch weather function. We implemented logic so that the user selects a city, and we pass this city name to the function to get the weather data. We then created another function to display the weather data by linking the data in the JSON format to the HTML. We used the document.querySelector and set the variables created in the HTML to the fetched data. We also passed the city's name to the Unsplash website to select and display a photo from that respective city. Finally, we implemented logic to listen to an enter command in either the search box field or if the search button was pushed and called the two functions to fetch and display the data. 
+
+
