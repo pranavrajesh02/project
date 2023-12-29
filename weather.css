@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; 
+    font-family: 'Inter', serif;
+    background: #525252;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    font-size: 130%;
+}
+
+.display {
+    background: rgba(0, 4, 44, 0.752);
+    color: rgb(255, 255, 255);
+    padding: 2.6em; 
+    border-radius: 100px;
+    max-width: 420px;
+    margin: 1em;
+}
+
+.search{
+    display: flex; 
+    justify-content: center;
+    align-items: center;  
+    color: #ffffff;     
+}
+
+button {
+    margin: 0.4em;
+    border-radius: 50%;
+    border: none;
+    height: 30px;
+    width: 30px;
+    outline: none;
+    background: #ffffff;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+input.search-bar{
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    border-radius: 28px;
+    background: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 75%;
+    width: calc(100% - 100px);
+}
+
+button:hover {
+    background: #fffdfdd8;
+}
+
+h1.temp {
+    margin: 0;
+    margin-bottom: 0.25em;
+    align-items: center;
+}
+
+h2.real-feel {
+    margin: 0;
+    margin-bottom: 0.25em;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    text-transform: capitalize; 
+    margin-left: 8px; 
+}
+
+.weather.loading please wait{
+    visibility: hidden;
+    max-height: 100px;
+    position: relative;
+}
+
+.weather.loading please wait:after {
+    visibility: visible;
+    content: "Loading... Please Wait";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 10px; 
+}
