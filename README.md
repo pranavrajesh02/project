@@ -8,4 +8,5 @@
 
 #### Our weather.js file implements the logic and uses an API key to fetch the weather data using the fetch weather function. We implemented logic so that the user selects a city, and we pass this city name to the function to get the weather data. We then created another function to display the weather data by linking the data in the JSON format to the HTML. We used the document.querySelector and set the variables created in the HTML to the fetched data. We also passed the city's name to the Unsplash website to select and display a photo from that respective city. Finally, we implemented logic to listen to an enter command in either the search box field or if the search button was pushed and called the two functions to fetch and display the data. 
 
+## Authors: Pranav Rajesh and Pavan Sumhruth Gadepalli
 
